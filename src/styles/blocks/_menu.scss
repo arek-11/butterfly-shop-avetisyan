@@ -1,0 +1,26 @@
+.menu {
+  ul {
+    position: relative;
+    right: 84px;
+    display: flex;
+    list-style: none;
+  }
+
+  li {
+    margin-left: 60px;
+
+    &:first-child {
+      margin-left: 0;
+      background-color: $color-red;
+    }
+  }
+
+  a {
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+
+
+  }
+}

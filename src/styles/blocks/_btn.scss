@@ -1,0 +1,21 @@
+.promo-btn {
+  @include btn;
+
+  width: 497px;
+  height: 104px;
+  margin: auto;
+  margin-top: 130px;
+  padding: 20px 36px;
+
+}
+
+.portfolio-btn {
+  @include btn;
+  margin: auto;
+  width: 497px;
+  height: 104px;
+  margin-top: 120px;
+  margin-bottom: 214px;
+
+
+}
