@@ -1,17 +1,21 @@
-@mixin inner {
-  width: 1278px;
+@mixin inner($width: 1276px) {
+  max-width: $width + $gap;
   margin: 0 auto;
+  padding: 0 $gap-half;
   border: 1px solid red;
 
 }
 
+// @mixin name {
+
+// }
 
 @mixin btn {
   display: block;
   padding: 30px 36px;
   min-width: 497px;
   color: $color-light;
-  font-family: 'open Sans';
+  font-family: $font;
   font-weight: 400;
   font-size: 42px;
   line-height: 57px;

@@ -1,14 +1,15 @@
-.form-order {
+.form {
   display: flex;
-  justify-content: space-between;
-  width: 33.33%;
+  align-items: flex-end;
   margin: 90px auto 0;
   border: 1px solid red;
-
+  width: 1276px;
+  // max-width: 100%;
 }
 
 .form-field {
   flex-basis: 33.33%;
+  padding: 0 20px;
 }
 
 .form-input {
@@ -18,4 +19,15 @@
   line-height: 34px;
   border-radius: 6px;
   border: none;
+}
+
+.form-field-half {
+  flex-basis: 33%;
+
+}
+
+.form-field {
+  flex-basis: 33%;
+  // align-items: center;
+  align-items: flex-end;
 }

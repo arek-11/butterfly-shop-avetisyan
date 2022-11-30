@@ -2,10 +2,21 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1000px;
+  z-index: 1000;
   padding-top: 16px;
   background-color: $color-dark;
   width: 100%;
+
+
+  @media (max-width: $tablet-max) {
+    padding: 20px 0;
+  }
+
+
+  @media (max-width: $mobile-max) {
+    padding: 16px 0;
+  }
+
 }
 
 .header-inner {
@@ -14,6 +25,8 @@
   a {
     color: #fff;
     text-decoration: none;
+    font-weight: 700;
+
   }
 
 
@@ -25,7 +38,13 @@
 }
 
 .header-logo {
+  font-weight: 600;
   font-size: 42px;
   line-height: 57px;
   margin-right: auto;
+
+  @media (max-width: $tablet-max) {
+    font-size: 36px;
+    line-height: 49px;
+  }
 }

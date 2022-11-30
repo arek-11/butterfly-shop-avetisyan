@@ -1,13 +1,25 @@
 .menu {
+
+  @media (max-width: $mobile-max) {
+    display: none;
+
+  }
+
   ul {
     position: relative;
-    right: 84px;
+    padding-right: 84px;
     display: flex;
     list-style: none;
+    align-items: center;
+
+    @media (max-width: $tablet-max) {
+      margin: 20px o;
+    }
   }
 
   li {
-    margin-left: 60px;
+    padding: 33px 25px;
+    margin-left: 10px;
 
     &:first-child {
       margin-left: 0;
@@ -20,7 +32,7 @@
     font-size: 14px;
     line-height: 24px;
     text-decoration: none;
-
+    font-family: $font;
 
   }
 }

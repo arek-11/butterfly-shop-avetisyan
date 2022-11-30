@@ -31,3 +31,28 @@
   line-height: 38px;
   margin-right: 60px;
 }
+
+.social {
+  display: flex;
+  list-style: none;
+
+}
+
+.social-item {
+  margin-left: 15px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+}
+
+.social-link {
+  display: block;
+  color: $color-light;
+  width: 26px;
+  height: 26px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
